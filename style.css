@@ -1,0 +1,85 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	height: 22px;
+	background: #CCC;
+	position:relative;
+}
+#container img{
+	margin-left: 240px;
+	margin-top: 3px;
+}
+#container div{
+	background: #CCC;
+	height: 22px;
+	width: 250px;
+	top: 0px;
+	right: 0px;
+	position:absolute;
+}
+/**
+ * 下面为轮播图
+ */
+ul, li{
+	list-style: none;
+}
+.box{
+	width: 1200px;
+	height: 397px;
+	margin: 100px auto;
+	position: relative;
+	overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+	align: center;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+	background:url() center center;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	font-size: 15px;
+}
+.nav .active{
+	background: red;
+	color: white;
+}
